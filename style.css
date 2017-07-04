@@ -89,6 +89,7 @@ header {
 #site_footer a {
   padding: 1em;
 }
+
 /*MOBILE*/
 @media (max-width: 699px) {
   header {
@@ -100,11 +101,9 @@ header {
   #logo {
     text-align: center;
   }
-
 }
 
 /*TABLET*/
-
 @media (min-width: 700px){
   header{
     padding-bottom: 15px;
@@ -128,7 +127,6 @@ header {
   #main_nav {
       text-align: center;
       display: flex;
-
   }
 
   #main_nav a {
@@ -162,12 +160,12 @@ header {
   }
 }
 
+/*DESKTOP*/
 @media (min-width: 1024px) {
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
   #site_container {
@@ -201,7 +199,6 @@ header {
 
   #main_content {
     display: flex;
-
   }
 
   #main_content div:first-child {
